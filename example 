@@ -1,0 +1,5 @@
+# Calculate the 3rd root of -27
+print(nth_root(-27, 3))  # Output: -3.0
+
+# Calculate distance between (1, 2) and (4, 6)
+print(euclidean_distance(1, 2, 4, 6))  # Output: 5.0
