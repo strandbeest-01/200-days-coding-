@@ -1,0 +1,7 @@
+def nth_root(x, n):
+    if n <= 0:
+        raise ValueError("n must be a positive integer")
+    if x < 0 and n % 2 == 1:  # Odd root of a negative number
+        return -abs(x) ** (1 / n)
+    else:
+        return x ** (1 / n)
